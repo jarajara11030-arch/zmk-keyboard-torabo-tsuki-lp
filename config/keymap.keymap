@@ -16,7 +16,7 @@
 
         rayer_4 {
             bindings = <&mo 2>;
-            key-positions = <34 33>;
+            key-positions = <34 35>;
             layers = <1 0>;
         };
     };
@@ -36,11 +36,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp RCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
             >;
         };
 
@@ -56,11 +56,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans      &trans           &trans      &trans      &trans                      &trans                &trans                 &trans       &trans         &trans     &trans
-&trans  &kp LS(N1)  &kp LS(N2)       &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)            &kp LS(N7)             &kp MINUS    &kp EQUAL      &kp INT3   &trans
-&trans  &trans      &kp PRINTSCREEN  &trans      &trans      &trans      &trans  &trans  &kp LS(N8)            &kp LS(N9)             &kp LBKT     &kp SEMI       &kp SQT    &trans
-&trans  &trans      &trans           &trans      &trans      &trans      &trans  &trans  &kp RBKT              &kp NUHS               &trans       &trans         &trans     &trans
-&trans  &trans      &trans           &trans      &trans      &trans      &trans  &trans  &trans                &trans                 &trans       &trans         &trans     &trans
+&trans  &trans      &trans           &trans      &trans      &trans                      &trans      &trans      &trans     &trans     &trans    &trans
+&trans  &kp LS(N1)  &kp LS(N2)       &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)  &kp LS(N7)  &kp MINUS  &kp EQUAL  &kp INT3  &trans
+&trans  &trans      &kp PRINTSCREEN  &trans      &trans      &trans      &trans  &trans  &kp LS(N8)  &kp LS(N9)  &kp LBKT   &kp SEMI   &kp SQT   &trans
+&trans  &trans      &trans           &trans      &trans      &trans      &trans  &trans  &kp RBKT    &kp NUHS    &trans     &trans     &trans    &trans
+&trans  &trans      &trans           &trans      &trans      &trans      &trans  &trans  &trans      &trans      &trans     &trans     &trans    &trans
             >;
         };
 
